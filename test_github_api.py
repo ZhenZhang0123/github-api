@@ -16,12 +16,12 @@ def test_getCommitByRepo():
 def test_githubApi():
     userId = 'richkempinski'
     apiInfo = githubApi(userId)
-    assert apiInfo == """Repo: csp Number of commits: 2\n
-    Repo: hellogitworld Number of commits: 30\n
-    Repo: helloworld Number of commits: 6\n
-    Repo: Mocks Number of commits: 10\n
-    Repo: Project1 Number of commits: 2\n
-    Repo: richkempinski.github.io Number of commits: 9\n
-    Repo: threads-of-life Number of commits: 1\n
-    Repo: try_nbdev Number of commits: 2\n
-    Repo: try_nbdev2 Number of commits: 5"""
+    assert apiInfo == """Repo: csp Number of commits: 2
+Repo: hellogitworld Number of commits: 30
+Repo: helloworld Number of commits: 6
+Repo: Mocks Number of commits: 10
+Repo: Project1 Number of commits: 2
+Repo: richkempinski.github.io Number of commits: 9
+Repo: threads-of-life Number of commits: 1
+Repo: try_nbdev Number of commits: 2
+Repo: try_nbdev2 Number of commits: 5"""
